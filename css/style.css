@@ -1,0 +1,14 @@
+body{
+    
+}
+.container{
+    width: 97.5%;
+    margin: 0 auto;
+    padding-top: 1.125%;
+    padding-bottom: 1.125%;
+}
+.block{
+    overflow: hidden;
+    background-color: #fff;
+    overflow: hidden;
+}

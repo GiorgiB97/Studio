@@ -1,0 +1,2480 @@
+/*	===========CONTAINER=========== */
+/*
+	==========BODY===========
+*/
+/*
+	==========MAKEUP==========
+*/
+body, body ul, body h1, body h2, body h3, body h4, body h5, body p {
+  margin: 0;
+  padding: 0; }
+
+/*
+    ==========WIDTHS==========NONDEVICE
+*/
+.grid-1 {
+  width: 8.33333%; }
+
+.grid-2 {
+  width: 16.66667%; }
+
+.grid-3 {
+  width: 25%; }
+
+.grid-4 {
+  width: 33.33333%; }
+
+.grid-5 {
+  width: 41.66667%; }
+
+.grid-6 {
+  width: 50%; }
+
+.grid-7 {
+  width: 58.33333%; }
+
+.grid-8 {
+  width: 66.66667%; }
+
+.grid-9 {
+  width: 75%; }
+
+.grid-10 {
+  width: 83.33333%; }
+
+.grid-11 {
+  width: 91.66667%; }
+
+.grid-12 {
+  width: 100%; }
+
+/*
+    ==========FLOATS==========NONDEVICE
+*/
+.float-left {
+  float: left; }
+
+.float-right {
+  float: right; }
+
+.float-none {
+  float: none; }
+
+/*
+    ==========DISPLAY==========NONDEVICE
+*/
+.display-none {
+  display: none; }
+
+.display-block {
+  display: block; }
+
+.display-inline {
+  display: inline; }
+
+.display-inline-block {
+  display: inline-block; }
+
+/*
+    ==========DISPLAY-LIST==========NONDEVICE
+*/
+.display-list-none li {
+  display: none; }
+
+.display-list-block li {
+  display: block; }
+
+.display-list-inline li {
+  display: inline; }
+
+.display-list-inline-block li {
+  display: inline-block; }
+
+/*
+    ==========TEXT-ALIGHT==========NONDEVICE
+*/
+.text-align-left {
+  text-align: left; }
+
+.text-align-right {
+  text-align: right; }
+
+.text-align-center {
+  text-align: center; }
+
+/*
+    ==========TEXT-COLOR==========NONDEVICE
+*/
+.text-color-white {
+  color: white; }
+  .text-color-white a {
+    color: white; }
+    .text-color-white a:hover {
+      transition: 0.3s;
+      color: whitesmoke; }
+
+.text-color-black {
+  color: #343434; }
+  .text-color-black a {
+    color: #343434; }
+    .text-color-black a:hover {
+      transition: 0.3s;
+      color: #202020; }
+
+.text-color-neptune {
+  color: #3d5e7f; }
+  .text-color-neptune a {
+    color: #3d5e7f; }
+    .text-color-neptune a:hover {
+      transition: 0.3s;
+      color: #2f4a63; }
+
+.text-color-uranus {
+  color: #0074ad; }
+  .text-color-uranus a {
+    color: #0074ad; }
+    .text-color-uranus a:hover {
+      transition: 0.3s;
+      color: #005885; }
+
+.text-color-sea {
+  color: #02baff; }
+  .text-color-sea a {
+    color: #02baff; }
+    .text-color-sea a:hover {
+      transition: 0.3s;
+      color: #009dd9; }
+
+.text-color-earth {
+  color: #81ca33; }
+  .text-color-earth a {
+    color: #81ca33; }
+    .text-color-earth a:hover {
+      transition: 0.3s;
+      color: #6daa2b; }
+
+.text-color-jupiter {
+  color: #ff7013; }
+  .text-color-jupiter a {
+    color: #ff7013; }
+    .text-color-jupiter a:hover {
+      transition: 0.3s;
+      color: #ea5c00; }
+
+.text-color-love {
+  color: #ff4747; }
+  .text-color-love a {
+    color: #ff4747; }
+    .text-color-love a:hover {
+      transition: 0.3s;
+      color: #ff1f1f; }
+
+.text-color-mars {
+  color: #dc232b; }
+  .text-color-mars a {
+    color: #dc232b; }
+    .text-color-mars a:hover {
+      transition: 0.3s;
+      color: #b91d24; }
+
+.text-color-moon {
+  color: #ececec; }
+  .text-color-moon a {
+    color: #ececec; }
+    .text-color-moon a:hover {
+      transition: 0.3s;
+      color: #d8d8d8; }
+
+.text-color-sun {
+  color: #e3493f; }
+  .text-color-sun a {
+    color: #e3493f; }
+    .text-color-sun a:hover {
+      transition: 0.3s;
+      color: #d92b20; }
+
+/*
+    ==========BG-COLOR==========NONDEVICE
+*/
+.bg-white {
+  background-color: whitesmoke; }
+
+.bg-black {
+  background-color: #202020; }
+
+.bg-neptune {
+  background-color: #2f4a63; }
+
+.bg-uranus {
+  background-color: #005885; }
+
+.bg-sea {
+  background-color: #009dd9; }
+
+.bg-earth {
+  background-color: #6daa2b; }
+
+.bg-jupiter {
+  background-color: #ea5c00; }
+
+.bg-love {
+  background-color: #ff1f1f; }
+
+.bg-mars {
+  background-color: #b91d24; }
+
+.bg-moon {
+  background-color: #d8d8d8; }
+
+.bg-sun {
+  background-color: #d92b20; }
+
+/*
+    ==========BLOCK==========NONDEVICE
+*/
+.block-white {
+  background-color: whitesmoke;
+  color: white; }
+  .block-white:hoveR {
+    transition: 0.3s;
+    background-color: white; }
+  .block-white a {
+    color: white; }
+    .block-white a:hover {
+      transition: 0.3s;
+      color: #b3b3b3; }
+
+.block-white-reverse {
+  background-color: whitesmoke;
+  color: white; }
+  .block-white-reverse:hoveR {
+    transition: 0.3s;
+    background-color: white; }
+  .block-white-reverse a {
+    color: white; }
+    .block-white-reverse a:hover {
+      transition: 0.3s;
+      color: #b3b3b3; }
+
+.block-black {
+  background-color: #202020;
+  color: #777777; }
+  .block-black:hoveR {
+    transition: 0.3s;
+    background-color: #343434; }
+  .block-black a {
+    color: #777777; }
+    .block-black a:hover {
+      transition: 0.3s;
+      color: black; }
+
+.block-black-reverse {
+  background-color: #202020;
+  color: #777777; }
+  .block-black-reverse:hoveR {
+    transition: 0.3s;
+    background-color: #343434; }
+  .block-black-reverse a {
+    color: #777777; }
+    .block-black-reverse a:hover {
+      transition: 0.3s;
+      color: black; }
+
+.block-neptune {
+  background-color: #2f4a63;
+  color: #7ea1c2; }
+  .block-neptune:hoveR {
+    transition: 0.3s;
+    background-color: #3d5e7f; }
+  .block-neptune a {
+    color: #7ea1c2; }
+    .block-neptune a:hover {
+      transition: 0.3s;
+      color: #050709; }
+
+.block-neptune-reverse {
+  background-color: #2f4a63;
+  color: #7ea1c2; }
+  .block-neptune-reverse:hoveR {
+    transition: 0.3s;
+    background-color: #3d5e7f; }
+  .block-neptune-reverse a {
+    color: #7ea1c2; }
+    .block-neptune-reverse a:hover {
+      transition: 0.3s;
+      color: #050709; }
+
+.block-uranus {
+  background-color: #005885;
+  color: #33bbff; }
+  .block-uranus:hoveR {
+    transition: 0.3s;
+    background-color: #0074ad; }
+  .block-uranus a {
+    color: #33bbff; }
+    .block-uranus a:hover {
+      transition: 0.3s;
+      color: black; }
+
+.block-uranus-reverse {
+  background-color: #005885;
+  color: #33bbff; }
+  .block-uranus-reverse:hoveR {
+    transition: 0.3s;
+    background-color: #0074ad; }
+  .block-uranus-reverse a {
+    color: #33bbff; }
+    .block-uranus-reverse a:hover {
+      transition: 0.3s;
+      color: black; }
+
+.block-sea {
+  background-color: #009dd9;
+  color: #87deff; }
+  .block-sea:hoveR {
+    transition: 0.3s;
+    background-color: #02baff; }
+  .block-sea a {
+    color: #87deff; }
+    .block-sea a:hover {
+      transition: 0.3s;
+      color: #003d54; }
+
+.block-sea-reverse {
+  background-color: #009dd9;
+  color: #87deff; }
+  .block-sea-reverse:hoveR {
+    transition: 0.3s;
+    background-color: #02baff; }
+  .block-sea-reverse a {
+    color: #87deff; }
+    .block-sea-reverse a:hover {
+      transition: 0.3s;
+      color: #003d54; }
+
+.block-earth {
+  background-color: #6daa2b;
+  color: #c2e69c; }
+  .block-earth:hoveR {
+    transition: 0.3s;
+    background-color: #81ca33; }
+  .block-earth a {
+    color: #c2e69c; }
+    .block-earth a:hover {
+      transition: 0.3s;
+      color: #294010; }
+
+.block-earth-reverse {
+  background-color: #6daa2b;
+  color: #c2e69c; }
+  .block-earth-reverse:hoveR {
+    transition: 0.3s;
+    background-color: #81ca33; }
+  .block-earth-reverse a {
+    color: #c2e69c; }
+    .block-earth-reverse a:hover {
+      transition: 0.3s;
+      color: #294010; }
+
+.block-jupiter {
+  background-color: #ea5c00;
+  color: #ffc198; }
+  .block-jupiter:hoveR {
+    transition: 0.3s;
+    background-color: #ff7013; }
+  .block-jupiter a {
+    color: #ffc198; }
+    .block-jupiter a:hover {
+      transition: 0.3s;
+      color: #652800; }
+
+.block-jupiter-reverse {
+  background-color: #ea5c00;
+  color: #ffc198; }
+  .block-jupiter-reverse:hoveR {
+    transition: 0.3s;
+    background-color: #ff7013; }
+  .block-jupiter-reverse a {
+    color: #ffc198; }
+    .block-jupiter-reverse a:hover {
+      transition: 0.3s;
+      color: #652800; }
+
+.block-love {
+  background-color: #ff1f1f;
+  color: #ffcccc; }
+  .block-love:hoveR {
+    transition: 0.3s;
+    background-color: #ff4747; }
+  .block-love a {
+    color: #ffcccc; }
+    .block-love a:hover {
+      transition: 0.3s;
+      color: #990000; }
+
+.block-love-reverse {
+  background-color: #ff1f1f;
+  color: #ffcccc; }
+  .block-love-reverse:hoveR {
+    transition: 0.3s;
+    background-color: #ff4747; }
+  .block-love-reverse a {
+    color: #ffcccc; }
+    .block-love-reverse a:hover {
+      transition: 0.3s;
+      color: #990000; }
+
+.block-mars {
+  background-color: #b91d24;
+  color: #ee9699; }
+  .block-mars:hoveR {
+    transition: 0.3s;
+    background-color: #dc232b; }
+  .block-mars a {
+    color: #ee9699; }
+    .block-mars a:hover {
+      transition: 0.3s;
+      color: #470b0e; }
+
+.block-mars-reverse {
+  background-color: #b91d24;
+  color: #ee9699; }
+  .block-mars-reverse:hoveR {
+    transition: 0.3s;
+    background-color: #dc232b; }
+  .block-mars-reverse a {
+    color: #ee9699; }
+    .block-mars-reverse a:hover {
+      transition: 0.3s;
+      color: #470b0e; }
+
+.block-moon {
+  background-color: #d8d8d8;
+  color: white; }
+  .block-moon:hoveR {
+    transition: 0.3s;
+    background-color: #ececec; }
+  .block-moon a {
+    color: white; }
+    .block-moon a:hover {
+      transition: 0.3s;
+      color: #969696; }
+
+.block-moon-reverse {
+  background-color: #d8d8d8;
+  color: white; }
+  .block-moon-reverse:hoveR {
+    transition: 0.3s;
+    background-color: #ececec; }
+  .block-moon-reverse a {
+    color: white; }
+    .block-moon-reverse a:hover {
+      transition: 0.3s;
+      color: #969696; }
+
+.block-sun {
+  background-color: #d92b20;
+  color: #f4b6b2; }
+  .block-sun:hoveR {
+    transition: 0.3s;
+    background-color: #e3493f; }
+  .block-sun a {
+    color: #f4b6b2; }
+    .block-sun a:hover {
+      transition: 0.3s;
+      color: #65140f; }
+
+.block-sun-reverse {
+  background-color: #d92b20;
+  color: #f4b6b2; }
+  .block-sun-reverse:hoveR {
+    transition: 0.3s;
+    background-color: #e3493f; }
+  .block-sun-reverse a {
+    color: #f4b6b2; }
+    .block-sun-reverse a:hover {
+      transition: 0.3s;
+      color: #65140f; }
+
+/*
+    ==========MEDIA SCREENS==========
+*/
+@media only screen and (max-width: 1600px) and (min-width: 1200px) {
+  /*
+      ==========WIDTHS==========
+  */
+  .grid-1-large {
+    width: 8.33333%; }
+
+  .grid-2-large {
+    width: 16.66667%; }
+
+  .grid-3-large {
+    width: 25%; }
+
+  .grid-4-large {
+    width: 33.33333%; }
+
+  .grid-5-large {
+    width: 41.66667%; }
+
+  .grid-6-large {
+    width: 50%; }
+
+  .grid-7-large {
+    width: 58.33333%; }
+
+  .grid-8-large {
+    width: 66.66667%; }
+
+  .grid-9-large {
+    width: 75%; }
+
+  .grid-10-large {
+    width: 83.33333%; }
+
+  .grid-11-large {
+    width: 91.66667%; }
+
+  .grid-12-large {
+    width: 100%; }
+
+  /*
+      ==========FLOATS==========
+  */
+  .float-left-large {
+    float: left; }
+
+  .float-right-large {
+    float: right; }
+
+  .float-none-large {
+    float: none; }
+
+  /*
+      ==========DISPLAY==========
+  */
+  .display-none-large {
+    display: none; }
+
+  .display-block-large {
+    display: block; }
+
+  .display-inline-large {
+    display: inline; }
+
+  .display-inline-block-large {
+    display: inline-block; }
+
+  /*
+      ==========LIST DISPLAY==========
+  */
+  .display-list-none-large li {
+    display: none; }
+
+  .display-list-block-large li {
+    display: block; }
+
+  .display-list-inline-large li {
+    display: inline; }
+
+  .display-list-inline-block-large li {
+    display: inline-block; }
+
+  /*
+      ==========TEXT ALIGNS==========
+  */
+  .text-align-left-large {
+    text-align: left; }
+
+  .text-align-right-large {
+    text-align: right; }
+
+  .text-align-center-large {
+    text-align: center; }
+
+  /*
+      ==========TEXT COLORS==========
+  */
+  .text-color-white-large {
+    color: white; }
+    .text-color-white-large a {
+      color: white; }
+      .text-color-white-large a:hover {
+        transition: 0.3s;
+        color: whitesmoke; }
+
+  .text-color-black-large {
+    color: #343434; }
+    .text-color-black-large a {
+      color: #343434; }
+      .text-color-black-large a:hover {
+        transition: 0.3s;
+        color: #202020; }
+
+  .text-color-neptune-large {
+    color: #3d5e7f; }
+    .text-color-neptune-large a {
+      color: #3d5e7f; }
+      .text-color-neptune-large a:hover {
+        transition: 0.3s;
+        color: #2f4a63; }
+
+  .text-color-uranus-large {
+    color: #0074ad; }
+    .text-color-uranus-large a {
+      color: #0074ad; }
+      .text-color-uranus-large a:hover {
+        transition: 0.3s;
+        color: #005885; }
+
+  .text-color-sea-large {
+    color: #02baff; }
+    .text-color-sea-large a {
+      color: #02baff; }
+      .text-color-sea-large a:hover {
+        transition: 0.3s;
+        color: #009dd9; }
+
+  .text-color-earth-large {
+    color: #81ca33; }
+    .text-color-earth-large a {
+      color: #81ca33; }
+      .text-color-earth-large a:hover {
+        transition: 0.3s;
+        color: #6daa2b; }
+
+  .text-color-jupiter-large {
+    color: #ff7013; }
+    .text-color-jupiter-large a {
+      color: #ff7013; }
+      .text-color-jupiter-large a:hover {
+        transition: 0.3s;
+        color: #ea5c00; }
+
+  .text-color-love-large {
+    color: #ff4747; }
+    .text-color-love-large a {
+      color: #ff4747; }
+      .text-color-love-large a:hover {
+        transition: 0.3s;
+        color: #ff1f1f; }
+
+  .text-color-mars-large {
+    color: #dc232b; }
+    .text-color-mars-large a {
+      color: #dc232b; }
+      .text-color-mars-large a:hover {
+        transition: 0.3s;
+        color: #b91d24; }
+
+  .text-color-moon-large {
+    color: #ececec; }
+    .text-color-moon-large a {
+      color: #ececec; }
+      .text-color-moon-large a:hover {
+        transition: 0.3s;
+        color: #d8d8d8; }
+
+  .text-color-sun-large {
+    color: #e3493f; }
+    .text-color-sun-large a {
+      color: #e3493f; }
+      .text-color-sun-large a:hover {
+        transition: 0.3s;
+        color: #d92b20; }
+
+  /*
+      ==========BG COLORS==========
+  */
+  .bg-white-large {
+    background-color: whitesmoke; }
+
+  .bg-black-large {
+    background-color: #202020; }
+
+  .bg-neptune-large {
+    background-color: #2f4a63; }
+
+  .bg-uranus-large {
+    background-color: #005885; }
+
+  .bg-sea-large {
+    background-color: #009dd9; }
+
+  .bg-earth-large {
+    background-color: #6daa2b; }
+
+  .bg-jupiter-large {
+    background-color: #ea5c00; }
+
+  .bg-love-large {
+    background-color: #ff1f1f; }
+
+  .bg-mars-large {
+    background-color: #b91d24; }
+
+  .bg-moon-large {
+    background-color: #d8d8d8; }
+
+  .bg-sun-large {
+    background-color: #d92b20; }
+
+  /*
+      ==========BLOCKS==========
+  */
+  .block-white-large {
+    background-color: whitesmoke;
+    color: white; }
+    .block-white-large:hoveR {
+      transition: 0.3s;
+      background-color: white; }
+    .block-white-large a {
+      color: white; }
+      .block-white-large a:hover {
+        transition: 0.3s;
+        color: #b3b3b3; }
+
+  .block-white-large-reverse {
+    background-color: whitesmoke;
+    color: #b3b3b3; }
+    .block-white-large-reverse:hoveR {
+      transition: 0.3s;
+      background-color: white; }
+    .block-white-large-reverse a {
+      color: #b3b3b3; }
+      .block-white-large-reverse a:hover {
+        transition: 0.3s;
+        color: white; }
+
+  .block-black-large {
+    background-color: #202020;
+    color: #777777; }
+    .block-black-large:hoveR {
+      transition: 0.3s;
+      background-color: #343434; }
+    .block-black-large a {
+      color: #777777; }
+      .block-black-large a:hover {
+        transition: 0.3s;
+        color: black; }
+
+  .block-black-large-reverse {
+    background-color: #202020;
+    color: black; }
+    .block-black-large-reverse:hoveR {
+      transition: 0.3s;
+      background-color: #343434; }
+    .block-black-large-reverse a {
+      color: black; }
+      .block-black-large-reverse a:hover {
+        transition: 0.3s;
+        color: #777777; }
+
+  .block-neptune-large {
+    background-color: #2f4a63;
+    color: #7ea1c2; }
+    .block-neptune-large:hoveR {
+      transition: 0.3s;
+      background-color: #3d5e7f; }
+    .block-neptune-large a {
+      color: #7ea1c2; }
+      .block-neptune-large a:hover {
+        transition: 0.3s;
+        color: #050709; }
+
+  .block-neptune-large-reverse {
+    background-color: #2f4a63;
+    color: #050709; }
+    .block-neptune-large-reverse:hoveR {
+      transition: 0.3s;
+      background-color: #3d5e7f; }
+    .block-neptune-large-reverse a {
+      color: #050709; }
+      .block-neptune-large-reverse a:hover {
+        transition: 0.3s;
+        color: #7ea1c2; }
+
+  .block-uranus-large {
+    background-color: #005885;
+    color: #33bbff; }
+    .block-uranus-large:hoveR {
+      transition: 0.3s;
+      background-color: #0074ad; }
+    .block-uranus-large a {
+      color: #33bbff; }
+      .block-uranus-large a:hover {
+        transition: 0.3s;
+        color: black; }
+
+  .block-uranus-large-reverse {
+    background-color: #005885;
+    color: black; }
+    .block-uranus-large-reverse:hoveR {
+      transition: 0.3s;
+      background-color: #0074ad; }
+    .block-uranus-large-reverse a {
+      color: black; }
+      .block-uranus-large-reverse a:hover {
+        transition: 0.3s;
+        color: #33bbff; }
+
+  .block-sea-large {
+    background-color: #009dd9;
+    color: #87deff; }
+    .block-sea-large:hoveR {
+      transition: 0.3s;
+      background-color: #02baff; }
+    .block-sea-large a {
+      color: #87deff; }
+      .block-sea-large a:hover {
+        transition: 0.3s;
+        color: #003d54; }
+
+  .block-sea-large-reverse {
+    background-color: #009dd9;
+    color: #003d54; }
+    .block-sea-large-reverse:hoveR {
+      transition: 0.3s;
+      background-color: #02baff; }
+    .block-sea-large-reverse a {
+      color: #003d54; }
+      .block-sea-large-reverse a:hover {
+        transition: 0.3s;
+        color: #87deff; }
+
+  .block-earth-large {
+    background-color: #6daa2b;
+    color: #c2e69c; }
+    .block-earth-large:hoveR {
+      transition: 0.3s;
+      background-color: #81ca33; }
+    .block-earth-large a {
+      color: #c2e69c; }
+      .block-earth-large a:hover {
+        transition: 0.3s;
+        color: #294010; }
+
+  .block-earth-large-reverse {
+    background-color: #6daa2b;
+    color: #294010; }
+    .block-earth-large-reverse:hoveR {
+      transition: 0.3s;
+      background-color: #81ca33; }
+    .block-earth-large-reverse a {
+      color: #294010; }
+      .block-earth-large-reverse a:hover {
+        transition: 0.3s;
+        color: #c2e69c; }
+
+  .block-jupiter-large {
+    background-color: #ea5c00;
+    color: #ffc198; }
+    .block-jupiter-large:hoveR {
+      transition: 0.3s;
+      background-color: #ff7013; }
+    .block-jupiter-large a {
+      color: #ffc198; }
+      .block-jupiter-large a:hover {
+        transition: 0.3s;
+        color: #652800; }
+
+  .block-jupiter-large-reverse {
+    background-color: #ea5c00;
+    color: #652800; }
+    .block-jupiter-large-reverse:hoveR {
+      transition: 0.3s;
+      background-color: #ff7013; }
+    .block-jupiter-large-reverse a {
+      color: #652800; }
+      .block-jupiter-large-reverse a:hover {
+        transition: 0.3s;
+        color: #ffc198; }
+
+  .block-love-large {
+    background-color: #ff1f1f;
+    color: #ffcccc; }
+    .block-love-large:hoveR {
+      transition: 0.3s;
+      background-color: #ff4747; }
+    .block-love-large a {
+      color: #ffcccc; }
+      .block-love-large a:hover {
+        transition: 0.3s;
+        color: #990000; }
+
+  .block-love-large-reverse {
+    background-color: #ff1f1f;
+    color: #990000; }
+    .block-love-large-reverse:hoveR {
+      transition: 0.3s;
+      background-color: #ff4747; }
+    .block-love-large-reverse a {
+      color: #990000; }
+      .block-love-large-reverse a:hover {
+        transition: 0.3s;
+        color: #ffcccc; }
+
+  .block-mars-large {
+    background-color: #b91d24;
+    color: #ee9699; }
+    .block-mars-large:hoveR {
+      transition: 0.3s;
+      background-color: #dc232b; }
+    .block-mars-large a {
+      color: #ee9699; }
+      .block-mars-large a:hover {
+        transition: 0.3s;
+        color: #470b0e; }
+
+  .block-mars-large-reverse {
+    background-color: #b91d24;
+    color: #470b0e; }
+    .block-mars-large-reverse:hoveR {
+      transition: 0.3s;
+      background-color: #dc232b; }
+    .block-mars-large-reverse a {
+      color: #470b0e; }
+      .block-mars-large-reverse a:hover {
+        transition: 0.3s;
+        color: #ee9699; }
+
+  .block-moon-large {
+    background-color: #d8d8d8;
+    color: white; }
+    .block-moon-large:hoveR {
+      transition: 0.3s;
+      background-color: #ececec; }
+    .block-moon-large a {
+      color: white; }
+      .block-moon-large a:hover {
+        transition: 0.3s;
+        color: #969696; }
+
+  .block-moon-large-reverse {
+    background-color: #d8d8d8;
+    color: #969696; }
+    .block-moon-large-reverse:hoveR {
+      transition: 0.3s;
+      background-color: #ececec; }
+    .block-moon-large-reverse a {
+      color: #969696; }
+      .block-moon-large-reverse a:hover {
+        transition: 0.3s;
+        color: white; }
+
+  .block-sun-large {
+    background-color: #d92b20;
+    color: #f4b6b2; }
+    .block-sun-large:hoveR {
+      transition: 0.3s;
+      background-color: #e3493f; }
+    .block-sun-large a {
+      color: #f4b6b2; }
+      .block-sun-large a:hover {
+        transition: 0.3s;
+        color: #65140f; }
+
+  .block-sun-large-reverse {
+    background-color: #d92b20;
+    color: #65140f; }
+    .block-sun-large-reverse:hoveR {
+      transition: 0.3s;
+      background-color: #e3493f; }
+    .block-sun-large-reverse a {
+      color: #65140f; }
+      .block-sun-large-reverse a:hover {
+        transition: 0.3s;
+        color: #f4b6b2; } }
+@media only screen and (max-width: 1200px) and (min-width: 768px) {
+  /*
+      ==========WIDTHS==========
+  */
+  .grid-1-medium {
+    width: 8.33333%; }
+
+  .grid-2-medium {
+    width: 16.66667%; }
+
+  .grid-3-medium {
+    width: 25%; }
+
+  .grid-4-medium {
+    width: 33.33333%; }
+
+  .grid-5-medium {
+    width: 41.66667%; }
+
+  .grid-6-medium {
+    width: 50%; }
+
+  .grid-7-medium {
+    width: 58.33333%; }
+
+  .grid-8-medium {
+    width: 66.66667%; }
+
+  .grid-9-medium {
+    width: 75%; }
+
+  .grid-10-medium {
+    width: 83.33333%; }
+
+  .grid-11-medium {
+    width: 91.66667%; }
+
+  .grid-12-medium {
+    width: 100%; }
+
+  /*
+      ==========FLOATS==========
+  */
+  .float-left-medium {
+    float: left; }
+
+  .float-right-medium {
+    float: right; }
+
+  .float-none-medium {
+    float: none; }
+
+  /*
+      ==========DISPLAY==========
+  */
+  .display-none-medium {
+    display: none; }
+
+  .display-block-medium {
+    display: block; }
+
+  .display-inline-medium {
+    display: inline; }
+
+  .display-inline-block-medium {
+    display: inline-block; }
+
+  /*
+      ==========LIST DISPLAY==========
+  */
+  .display-list-none-medium li {
+    display: none; }
+
+  .display-list-block-medium li {
+    display: block; }
+
+  .display-list-inline-medium li {
+    display: inline; }
+
+  .display-list-inline-block-medium li {
+    display: inline-block; }
+
+  /*
+      ==========TEXT ALIGNS==========
+  */
+  .text-align-left-medium {
+    text-align: left; }
+
+  .text-align-right-medium {
+    text-align: right; }
+
+  .text-align-center-medium {
+    text-align: center; }
+
+  /*
+      ==========TEXT COLORS==========
+  */
+  .text-color-white-medium {
+    color: white; }
+    .text-color-white-medium a {
+      color: white; }
+      .text-color-white-medium a:hover {
+        transition: 0.3s;
+        color: whitesmoke; }
+
+  .text-color-black-medium {
+    color: #343434; }
+    .text-color-black-medium a {
+      color: #343434; }
+      .text-color-black-medium a:hover {
+        transition: 0.3s;
+        color: #202020; }
+
+  .text-color-neptune-medium {
+    color: #3d5e7f; }
+    .text-color-neptune-medium a {
+      color: #3d5e7f; }
+      .text-color-neptune-medium a:hover {
+        transition: 0.3s;
+        color: #2f4a63; }
+
+  .text-color-uranus-medium {
+    color: #0074ad; }
+    .text-color-uranus-medium a {
+      color: #0074ad; }
+      .text-color-uranus-medium a:hover {
+        transition: 0.3s;
+        color: #005885; }
+
+  .text-color-sea-medium {
+    color: #02baff; }
+    .text-color-sea-medium a {
+      color: #02baff; }
+      .text-color-sea-medium a:hover {
+        transition: 0.3s;
+        color: #009dd9; }
+
+  .text-color-earth-medium {
+    color: #81ca33; }
+    .text-color-earth-medium a {
+      color: #81ca33; }
+      .text-color-earth-medium a:hover {
+        transition: 0.3s;
+        color: #6daa2b; }
+
+  .text-color-jupiter-medium {
+    color: #ff7013; }
+    .text-color-jupiter-medium a {
+      color: #ff7013; }
+      .text-color-jupiter-medium a:hover {
+        transition: 0.3s;
+        color: #ea5c00; }
+
+  .text-color-love-medium {
+    color: #ff4747; }
+    .text-color-love-medium a {
+      color: #ff4747; }
+      .text-color-love-medium a:hover {
+        transition: 0.3s;
+        color: #ff1f1f; }
+
+  .text-color-mars-medium {
+    color: #dc232b; }
+    .text-color-mars-medium a {
+      color: #dc232b; }
+      .text-color-mars-medium a:hover {
+        transition: 0.3s;
+        color: #b91d24; }
+
+  .text-color-moon-medium {
+    color: #ececec; }
+    .text-color-moon-medium a {
+      color: #ececec; }
+      .text-color-moon-medium a:hover {
+        transition: 0.3s;
+        color: #d8d8d8; }
+
+  .text-color-sun-medium {
+    color: #e3493f; }
+    .text-color-sun-medium a {
+      color: #e3493f; }
+      .text-color-sun-medium a:hover {
+        transition: 0.3s;
+        color: #d92b20; }
+
+  /*
+      ==========BG COLORS==========
+  */
+  .bg-white-medium {
+    background-color: white; }
+
+  .bg-black-medium {
+    background-color: #202020; }
+
+  .bg-neptune-medium {
+    background-color: #2f4a63; }
+
+  .bg-uranus-medium {
+    background-color: #005885; }
+
+  .bg-sea-medium {
+    background-color: #009dd9; }
+
+  .bg-earth-medium {
+    background-color: #6daa2b; }
+
+  .bg-jupiter-medium {
+    background-color: #ea5c00; }
+
+  .bg-love-medium {
+    background-color: #ff1f1f; }
+
+  .bg-mars-medium {
+    background-color: #b91d24; }
+
+  .bg-moon-medium {
+    background-color: #d8d8d8; }
+
+  .bg-sun-medium {
+    background-color: #d92b20; }
+
+  /*
+      ==========BLOCKS==========
+  */
+  .block-white-medium {
+    background-color: whitesmoke;
+    color: white; }
+    .block-white-medium:hoveR {
+      transition: 0.3s;
+      background-color: white; }
+    .block-white-medium a {
+      color: white; }
+      .block-white-medium a:hover {
+        transition: 0.3s;
+        color: #b3b3b3; }
+
+  .block-white-medium-reverse {
+    background-color: whitesmoke;
+    color: #b3b3b3; }
+    .block-white-medium-reverse:hoveR {
+      transition: 0.3s;
+      background-color: white; }
+    .block-white-medium-reverse a {
+      color: #b3b3b3; }
+      .block-white-medium-reverse a:hover {
+        transition: 0.3s;
+        color: white; }
+
+  .block-black-medium {
+    background-color: #202020;
+    color: #777777; }
+    .block-black-medium:hoveR {
+      transition: 0.3s;
+      background-color: #343434; }
+    .block-black-medium a {
+      color: #777777; }
+      .block-black-medium a:hover {
+        transition: 0.3s;
+        color: black; }
+
+  .block-black-medium-reverse {
+    background-color: #202020;
+    color: black; }
+    .block-black-medium-reverse:hoveR {
+      transition: 0.3s;
+      background-color: #343434; }
+    .block-black-medium-reverse a {
+      color: black; }
+      .block-black-medium-reverse a:hover {
+        transition: 0.3s;
+        color: #777777; }
+
+  .block-neptune-medium {
+    background-color: #2f4a63;
+    color: #7ea1c2; }
+    .block-neptune-medium:hoveR {
+      transition: 0.3s;
+      background-color: #3d5e7f; }
+    .block-neptune-medium a {
+      color: #7ea1c2; }
+      .block-neptune-medium a:hover {
+        transition: 0.3s;
+        color: #050709; }
+
+  .block-neptune-medium-reverse {
+    background-color: #2f4a63;
+    color: #050709; }
+    .block-neptune-medium-reverse:hoveR {
+      transition: 0.3s;
+      background-color: #3d5e7f; }
+    .block-neptune-medium-reverse a {
+      color: #050709; }
+      .block-neptune-medium-reverse a:hover {
+        transition: 0.3s;
+        color: #7ea1c2; }
+
+  .block-uranus-medium {
+    background-color: #005885;
+    color: #33bbff; }
+    .block-uranus-medium:hoveR {
+      transition: 0.3s;
+      background-color: #0074ad; }
+    .block-uranus-medium a {
+      color: #33bbff; }
+      .block-uranus-medium a:hover {
+        transition: 0.3s;
+        color: black; }
+
+  .block-uranus-medium-reverse {
+    background-color: #005885;
+    color: black; }
+    .block-uranus-medium-reverse:hoveR {
+      transition: 0.3s;
+      background-color: #0074ad; }
+    .block-uranus-medium-reverse a {
+      color: black; }
+      .block-uranus-medium-reverse a:hover {
+        transition: 0.3s;
+        color: #33bbff; }
+
+  .block-sea-medium {
+    background-color: #009dd9;
+    color: #87deff; }
+    .block-sea-medium:hoveR {
+      transition: 0.3s;
+      background-color: #02baff; }
+    .block-sea-medium a {
+      color: #87deff; }
+      .block-sea-medium a:hover {
+        transition: 0.3s;
+        color: #003d54; }
+
+  .block-sea-medium-reverse {
+    background-color: #009dd9;
+    color: #003d54; }
+    .block-sea-medium-reverse:hoveR {
+      transition: 0.3s;
+      background-color: #02baff; }
+    .block-sea-medium-reverse a {
+      color: #003d54; }
+      .block-sea-medium-reverse a:hover {
+        transition: 0.3s;
+        color: #87deff; }
+
+  .block-earth-medium {
+    background-color: #6daa2b;
+    color: #c2e69c; }
+    .block-earth-medium:hoveR {
+      transition: 0.3s;
+      background-color: #81ca33; }
+    .block-earth-medium a {
+      color: #c2e69c; }
+      .block-earth-medium a:hover {
+        transition: 0.3s;
+        color: #294010; }
+
+  .block-earth-medium-reverse {
+    background-color: #6daa2b;
+    color: #294010; }
+    .block-earth-medium-reverse:hoveR {
+      transition: 0.3s;
+      background-color: #81ca33; }
+    .block-earth-medium-reverse a {
+      color: #294010; }
+      .block-earth-medium-reverse a:hover {
+        transition: 0.3s;
+        color: #c2e69c; }
+
+  .block-jupiter-medium {
+    background-color: #ea5c00;
+    color: #ffc198; }
+    .block-jupiter-medium:hoveR {
+      transition: 0.3s;
+      background-color: #ff7013; }
+    .block-jupiter-medium a {
+      color: #ffc198; }
+      .block-jupiter-medium a:hover {
+        transition: 0.3s;
+        color: #652800; }
+
+  .block-jupiter-medium-reverse {
+    background-color: #ea5c00;
+    color: #652800; }
+    .block-jupiter-medium-reverse:hoveR {
+      transition: 0.3s;
+      background-color: #ff7013; }
+    .block-jupiter-medium-reverse a {
+      color: #652800; }
+      .block-jupiter-medium-reverse a:hover {
+        transition: 0.3s;
+        color: #ffc198; }
+
+  .block-love-medium {
+    background-color: #ff1f1f;
+    color: #ffcccc; }
+    .block-love-medium:hoveR {
+      transition: 0.3s;
+      background-color: #ff4747; }
+    .block-love-medium a {
+      color: #ffcccc; }
+      .block-love-medium a:hover {
+        transition: 0.3s;
+        color: #990000; }
+
+  .block-love-medium-reverse {
+    background-color: #ff1f1f;
+    color: #990000; }
+    .block-love-medium-reverse:hoveR {
+      transition: 0.3s;
+      background-color: #ff4747; }
+    .block-love-medium-reverse a {
+      color: #990000; }
+      .block-love-medium-reverse a:hover {
+        transition: 0.3s;
+        color: #ffcccc; }
+
+  .block-mars-medium {
+    background-color: #b91d24;
+    color: #ee9699; }
+    .block-mars-medium:hoveR {
+      transition: 0.3s;
+      background-color: #dc232b; }
+    .block-mars-medium a {
+      color: #ee9699; }
+      .block-mars-medium a:hover {
+        transition: 0.3s;
+        color: #470b0e; }
+
+  .block-mars-medium-reverse {
+    background-color: #b91d24;
+    color: #470b0e; }
+    .block-mars-medium-reverse:hoveR {
+      transition: 0.3s;
+      background-color: #dc232b; }
+    .block-mars-medium-reverse a {
+      color: #470b0e; }
+      .block-mars-medium-reverse a:hover {
+        transition: 0.3s;
+        color: #ee9699; }
+
+  .block-moon-medium {
+    background-color: #d8d8d8;
+    color: white; }
+    .block-moon-medium:hoveR {
+      transition: 0.3s;
+      background-color: #ececec; }
+    .block-moon-medium a {
+      color: white; }
+      .block-moon-medium a:hover {
+        transition: 0.3s;
+        color: #969696; }
+
+  .block-moon-medium-reverse {
+    background-color: #d8d8d8;
+    color: #969696; }
+    .block-moon-medium-reverse:hoveR {
+      transition: 0.3s;
+      background-color: #ececec; }
+    .block-moon-medium-reverse a {
+      color: #969696; }
+      .block-moon-medium-reverse a:hover {
+        transition: 0.3s;
+        color: white; }
+
+  .block-sun-medium {
+    background-color: #d92b20;
+    color: #f4b6b2; }
+    .block-sun-medium:hoveR {
+      transition: 0.3s;
+      background-color: #e3493f; }
+    .block-sun-medium a {
+      color: #f4b6b2; }
+      .block-sun-medium a:hover {
+        transition: 0.3s;
+        color: #65140f; }
+
+  .block-sun-medium-reverse {
+    background-color: #d92b20;
+    color: #65140f; }
+    .block-sun-medium-reverse:hoveR {
+      transition: 0.3s;
+      background-color: #e3493f; }
+    .block-sun-medium-reverse a {
+      color: #65140f; }
+      .block-sun-medium-reverse a:hover {
+        transition: 0.3s;
+        color: #f4b6b2; } }
+@media only screen and (max-width: 768px) and (min-width: 320px) {
+  /*
+      ==========WIDTHS==========
+  */
+  .grid-1-small {
+    width: 8.33333%; }
+
+  .grid-2-small {
+    width: 16.66667%; }
+
+  .grid-3-small {
+    width: 25%; }
+
+  .grid-4-small {
+    width: 33.33333%; }
+
+  .grid-5-small {
+    width: 41.66667%; }
+
+  .grid-6-small {
+    width: 50%; }
+
+  .grid-7-small {
+    width: 58.33333%; }
+
+  .grid-8-small {
+    width: 66.66667%; }
+
+  .grid-9-small {
+    width: 75%; }
+
+  .grid-10-small {
+    width: 83.33333%; }
+
+  .grid-11-small {
+    width: 91.66667%; }
+
+  .grid-12-small {
+    width: 100%; }
+
+  /*
+      ==========FLOATS==========
+  */
+  .float-left-small {
+    float: left; }
+
+  .float-right-small {
+    float: right; }
+
+  .float-none-small {
+    float: none; }
+
+  /*
+      ==========DISPLAY==========
+  */
+  .display-none-small {
+    display: none; }
+
+  .display-block-small {
+    display: block; }
+
+  .display-inline-small {
+    display: inline; }
+
+  .display-inline-block-small {
+    display: inline-block; }
+
+  /*
+      ==========LIST DISPLAY==========
+  */
+  .display-list-none-small li {
+    display: none; }
+
+  .display-list-block-small li {
+    display: block; }
+
+  .display-list-inline-small li {
+    display: inline; }
+
+  .display-list-inline-block-small li {
+    display: inline-block; }
+
+  /*
+      ==========TEXT ALIGNS==========
+  */
+  .text-align-left-small {
+    text-align: left; }
+
+  .text-align-right-small {
+    text-align: right; }
+
+  .text-align-center-small {
+    text-align: center; }
+
+  /*
+      ==========TEXT COLORS==========
+  */
+  .text-color-white-small {
+    color: white; }
+    .text-color-white-small a {
+      color: white; }
+      .text-color-white-small a:hover {
+        transition: 0.3s;
+        color: whitesmoke; }
+
+  .text-color-black-small {
+    color: #343434; }
+    .text-color-black-small a {
+      color: #343434; }
+      .text-color-black-small a:hover {
+        transition: 0.3s;
+        color: #202020; }
+
+  .text-color-neptune-small {
+    color: #3d5e7f; }
+    .text-color-neptune-small a {
+      color: #3d5e7f; }
+      .text-color-neptune-small a:hover {
+        transition: 0.3s;
+        color: #2f4a63; }
+
+  .text-color-uranus-small {
+    color: #0074ad; }
+    .text-color-uranus-small a {
+      color: #0074ad; }
+      .text-color-uranus-small a:hover {
+        transition: 0.3s;
+        color: #005885; }
+
+  .text-color-sea-small {
+    color: #02baff; }
+    .text-color-sea-small a {
+      color: #02baff; }
+      .text-color-sea-small a:hover {
+        transition: 0.3s;
+        color: #009dd9; }
+
+  .text-color-earth-small {
+    color: #81ca33; }
+    .text-color-earth-small a {
+      color: #81ca33; }
+      .text-color-earth-small a:hover {
+        transition: 0.3s;
+        color: #6daa2b; }
+
+  .text-color-jupiter-small {
+    color: #ff7013; }
+    .text-color-jupiter-small a {
+      color: #ff7013; }
+      .text-color-jupiter-small a:hover {
+        transition: 0.3s;
+        color: #ea5c00; }
+
+  .text-color-love-small {
+    color: #ff4747; }
+    .text-color-love-small a {
+      color: #ff4747; }
+      .text-color-love-small a:hover {
+        transition: 0.3s;
+        color: #ff1f1f; }
+
+  .text-color-mars-small {
+    color: #dc232b; }
+    .text-color-mars-small a {
+      color: #dc232b; }
+      .text-color-mars-small a:hover {
+        transition: 0.3s;
+        color: #b91d24; }
+
+  .text-color-moon-small {
+    color: #ececec; }
+    .text-color-moon-small a {
+      color: #ececec; }
+      .text-color-moon-small a:hover {
+        transition: 0.3s;
+        color: #d8d8d8; }
+
+  .text-color-sun-small {
+    color: #e3493f; }
+    .text-color-sun-small a {
+      color: #e3493f; }
+      .text-color-sun-small a:hover {
+        transition: 0.3s;
+        color: #d92b20; }
+
+  /*
+      ==========BG COLORS==========
+  */
+  .bg-white-small {
+    background-color: whitesmoke; }
+
+  .bg-black-small {
+    background-color: #202020; }
+
+  .bg-neptune-small {
+    background-color: #2f4a63; }
+
+  .bg-uranus-small {
+    background-color: #005885; }
+
+  .bg-sea-small {
+    background-color: #009dd9; }
+
+  .bg-earth-small {
+    background-color: #6daa2b; }
+
+  .bg-jupiter-small {
+    background-color: #ea5c00; }
+
+  .bg-love-small {
+    background-color: #ff1f1f; }
+
+  .bg-mars-small {
+    background-color: #b91d24; }
+
+  .bg-moon-small {
+    background-color: #d8d8d8; }
+
+  .bg-sun-small {
+    background-color: #d92b20; }
+
+  /*
+      ==========BLOCKS==========
+  */
+  .block-white-small {
+    background-color: whitesmoke;
+    color: white; }
+    .block-white-small:hoveR {
+      transition: 0.3s;
+      background-color: white; }
+    .block-white-small a {
+      color: white; }
+      .block-white-small a:hover {
+        transition: 0.3s;
+        color: #b3b3b3; }
+
+  .block-white-small-reverse {
+    background-color: whitesmoke;
+    color: #b3b3b3; }
+    .block-white-small-reverse:hoveR {
+      transition: 0.3s;
+      background-color: white; }
+    .block-white-small-reverse a {
+      color: #b3b3b3; }
+      .block-white-small-reverse a:hover {
+        transition: 0.3s;
+        color: white; }
+
+  .block-black-small {
+    background-color: #202020;
+    color: #777777; }
+    .block-black-small:hoveR {
+      transition: 0.3s;
+      background-color: #343434; }
+    .block-black-small a {
+      color: #777777; }
+      .block-black-small a:hover {
+        transition: 0.3s;
+        color: black; }
+
+  .block-black-small-reverse {
+    background-color: #202020;
+    color: black; }
+    .block-black-small-reverse:hoveR {
+      transition: 0.3s;
+      background-color: #343434; }
+    .block-black-small-reverse a {
+      color: black; }
+      .block-black-small-reverse a:hover {
+        transition: 0.3s;
+        color: #777777; }
+
+  .block-neptune-small {
+    background-color: #2f4a63;
+    color: #7ea1c2; }
+    .block-neptune-small:hoveR {
+      transition: 0.3s;
+      background-color: #3d5e7f; }
+    .block-neptune-small a {
+      color: #7ea1c2; }
+      .block-neptune-small a:hover {
+        transition: 0.3s;
+        color: #050709; }
+
+  .block-neptune-small-reverse {
+    background-color: #2f4a63;
+    color: #050709; }
+    .block-neptune-small-reverse:hoveR {
+      transition: 0.3s;
+      background-color: #3d5e7f; }
+    .block-neptune-small-reverse a {
+      color: #050709; }
+      .block-neptune-small-reverse a:hover {
+        transition: 0.3s;
+        color: #7ea1c2; }
+
+  .block-uranus-small {
+    background-color: #005885;
+    color: #33bbff; }
+    .block-uranus-small:hoveR {
+      transition: 0.3s;
+      background-color: #0074ad; }
+    .block-uranus-small a {
+      color: #33bbff; }
+      .block-uranus-small a:hover {
+        transition: 0.3s;
+        color: black; }
+
+  .block-uranus-small-reverse {
+    background-color: #005885;
+    color: black; }
+    .block-uranus-small-reverse:hoveR {
+      transition: 0.3s;
+      background-color: #0074ad; }
+    .block-uranus-small-reverse a {
+      color: black; }
+      .block-uranus-small-reverse a:hover {
+        transition: 0.3s;
+        color: #33bbff; }
+
+  .block-sea-small {
+    background-color: #009dd9;
+    color: #87deff; }
+    .block-sea-small:hoveR {
+      transition: 0.3s;
+      background-color: #02baff; }
+    .block-sea-small a {
+      color: #87deff; }
+      .block-sea-small a:hover {
+        transition: 0.3s;
+        color: #003d54; }
+
+  .block-sea-small-reverse {
+    background-color: #009dd9;
+    color: #003d54; }
+    .block-sea-small-reverse:hoveR {
+      transition: 0.3s;
+      background-color: #02baff; }
+    .block-sea-small-reverse a {
+      color: #003d54; }
+      .block-sea-small-reverse a:hover {
+        transition: 0.3s;
+        color: #87deff; }
+
+  .block-earth-small {
+    background-color: #6daa2b;
+    color: #c2e69c; }
+    .block-earth-small:hoveR {
+      transition: 0.3s;
+      background-color: #81ca33; }
+    .block-earth-small a {
+      color: #c2e69c; }
+      .block-earth-small a:hover {
+        transition: 0.3s;
+        color: #294010; }
+
+  .block-earth-small-reverse {
+    background-color: #6daa2b;
+    color: #294010; }
+    .block-earth-small-reverse:hoveR {
+      transition: 0.3s;
+      background-color: #81ca33; }
+    .block-earth-small-reverse a {
+      color: #294010; }
+      .block-earth-small-reverse a:hover {
+        transition: 0.3s;
+        color: #c2e69c; }
+
+  .block-jupiter-small {
+    background-color: #ea5c00;
+    color: #ffc198; }
+    .block-jupiter-small:hoveR {
+      transition: 0.3s;
+      background-color: #ff7013; }
+    .block-jupiter-small a {
+      color: #ffc198; }
+      .block-jupiter-small a:hover {
+        transition: 0.3s;
+        color: #652800; }
+
+  .block-jupiter-small-reverse {
+    background-color: #ea5c00;
+    color: #652800; }
+    .block-jupiter-small-reverse:hoveR {
+      transition: 0.3s;
+      background-color: #ff7013; }
+    .block-jupiter-small-reverse a {
+      color: #652800; }
+      .block-jupiter-small-reverse a:hover {
+        transition: 0.3s;
+        color: #ffc198; }
+
+  .block-love-small {
+    background-color: #ff1f1f;
+    color: #ffcccc; }
+    .block-love-small:hoveR {
+      transition: 0.3s;
+      background-color: #ff4747; }
+    .block-love-small a {
+      color: #ffcccc; }
+      .block-love-small a:hover {
+        transition: 0.3s;
+        color: #990000; }
+
+  .block-love-small-reverse {
+    background-color: #ff1f1f;
+    color: #990000; }
+    .block-love-small-reverse:hoveR {
+      transition: 0.3s;
+      background-color: #ff4747; }
+    .block-love-small-reverse a {
+      color: #990000; }
+      .block-love-small-reverse a:hover {
+        transition: 0.3s;
+        color: #ffcccc; }
+
+  .block-mars-small {
+    background-color: #b91d24;
+    color: #ee9699; }
+    .block-mars-small:hoveR {
+      transition: 0.3s;
+      background-color: #dc232b; }
+    .block-mars-small a {
+      color: #ee9699; }
+      .block-mars-small a:hover {
+        transition: 0.3s;
+        color: #470b0e; }
+
+  .block-mars-small-reverse {
+    background-color: #b91d24;
+    color: #470b0e; }
+    .block-mars-small-reverse:hoveR {
+      transition: 0.3s;
+      background-color: #dc232b; }
+    .block-mars-small-reverse a {
+      color: #470b0e; }
+      .block-mars-small-reverse a:hover {
+        transition: 0.3s;
+        color: #ee9699; }
+
+  .block-moon-small {
+    background-color: #d8d8d8;
+    color: white; }
+    .block-moon-small:hoveR {
+      transition: 0.3s;
+      background-color: #ececec; }
+    .block-moon-small a {
+      color: white; }
+      .block-moon-small a:hover {
+        transition: 0.3s;
+        color: #969696; }
+
+  .block-moon-small-reverse {
+    background-color: #d8d8d8;
+    color: #969696; }
+    .block-moon-small-reverse:hoveR {
+      transition: 0.3s;
+      background-color: #ececec; }
+    .block-moon-small-reverse a {
+      color: #969696; }
+      .block-moon-small-reverse a:hover {
+        transition: 0.3s;
+        color: white; }
+
+  .block-sun-small {
+    background-color: #d92b20;
+    color: #f4b6b2; }
+    .block-sun-small:hoveR {
+      transition: 0.3s;
+      background-color: #e3493f; }
+    .block-sun-small a {
+      color: #f4b6b2; }
+      .block-sun-small a:hover {
+        transition: 0.3s;
+        color: #65140f; }
+
+  .block-sun-small-reverse {
+    background-color: #d92b20;
+    color: #65140f; }
+    .block-sun-small-reverse:hoveR {
+      transition: 0.3s;
+      background-color: #e3493f; }
+    .block-sun-small-reverse a {
+      color: #65140f; }
+      .block-sun-small-reverse a:hover {
+        transition: 0.3s;
+        color: #f4b6b2; } }
+@media only screen and (max-width: 320px) and (min-width: 0) {
+  /*
+      ==========WIDTHS==========
+  */
+  .grid-1-xSmall {
+    width: 8.33333%; }
+
+  .grid-2-xSmall {
+    width: 16.66667%; }
+
+  .grid-3-xSmall {
+    width: 25%; }
+
+  .grid-4-xSmall {
+    width: 33.33333%; }
+
+  .grid-5-xSmall {
+    width: 41.66667%; }
+
+  .grid-6-xSmall {
+    width: 50%; }
+
+  .grid-7-xSmall {
+    width: 58.33333%; }
+
+  .grid-8-xSmall {
+    width: 66.66667%; }
+
+  .grid-9-xSmall {
+    width: 75%; }
+
+  .grid-10-xSmall {
+    width: 83.33333%; }
+
+  .grid-11-xSmall {
+    width: 91.66667%; }
+
+  .grid-12-xSmall {
+    width: 100%; }
+
+  /*
+      ==========FLOATS==========
+  */
+  .float-left-xSmall {
+    float: left; }
+
+  .float-right-xSmall {
+    float: right; }
+
+  .float-none-xSmall {
+    float: none; }
+
+  /*
+      ==========DISPLAY==========
+  */
+  .display-none-xSmall {
+    display: none; }
+
+  .display-block-xSmall {
+    display: block; }
+
+  .display-inline-xSmall {
+    display: inline; }
+
+  .display-inline-block-xSmall {
+    display: inline-block; }
+
+  /*
+      ==========LIST DISPLAY==========
+  */
+  .display-list-none-xSmall li {
+    display: none; }
+
+  .display-list-block-xSmall li {
+    display: block; }
+
+  .display-list-inline-xSmall li {
+    display: inline; }
+
+  .display-list-inline-block-xSmall li {
+    display: inline-block; }
+
+  /*
+      ==========TEXT ALIGNS==========
+  */
+  .text-align-left-xSmall {
+    text-align: left; }
+
+  .text-align-right-xSmall {
+    text-align: right; }
+
+  .text-align-center-xSmall {
+    text-align: center; }
+
+  /*
+      ==========TEXT COLORS==========
+  */
+  .text-color-white-xSmall {
+    color: white; }
+    .text-color-white-xSmall a {
+      color: white; }
+      .text-color-white-xSmall a:hover {
+        transition: 0.3s;
+        color: whitesmoke; }
+
+  .text-color-black-xSmall {
+    color: #343434; }
+    .text-color-black-xSmall a {
+      color: #343434; }
+      .text-color-black-xSmall a:hover {
+        transition: 0.3s;
+        color: #202020; }
+
+  .text-color-neptune-xSmall {
+    color: #3d5e7f; }
+    .text-color-neptune-xSmall a {
+      color: #3d5e7f; }
+      .text-color-neptune-xSmall a:hover {
+        transition: 0.3s;
+        color: #2f4a63; }
+
+  .text-color-uranus-xSmall {
+    color: #0074ad; }
+    .text-color-uranus-xSmall a {
+      color: #0074ad; }
+      .text-color-uranus-xSmall a:hover {
+        transition: 0.3s;
+        color: #005885; }
+
+  .text-color-sea-xSmall {
+    color: #02baff; }
+    .text-color-sea-xSmall a {
+      color: #02baff; }
+      .text-color-sea-xSmall a:hover {
+        transition: 0.3s;
+        color: #009dd9; }
+
+  .text-color-earth-xSmall {
+    color: #81ca33; }
+    .text-color-earth-xSmall a {
+      color: #81ca33; }
+      .text-color-earth-xSmall a:hover {
+        transition: 0.3s;
+        color: #6daa2b; }
+
+  .text-color-jupiter-xSmall {
+    color: #ff7013; }
+    .text-color-jupiter-xSmall a {
+      color: #ff7013; }
+      .text-color-jupiter-xSmall a:hover {
+        transition: 0.3s;
+        color: #ea5c00; }
+
+  .text-color-love-xSmall {
+    color: #ff4747; }
+    .text-color-love-xSmall a {
+      color: #ff4747; }
+      .text-color-love-xSmall a:hover {
+        transition: 0.3s;
+        color: #ff1f1f; }
+
+  .text-color-mars-xSmall {
+    color: #dc232b; }
+    .text-color-mars-xSmall a {
+      color: #dc232b; }
+      .text-color-mars-xSmall a:hover {
+        transition: 0.3s;
+        color: #b91d24; }
+
+  .text-color-moon-xSmall {
+    color: #ececec; }
+    .text-color-moon-xSmall a {
+      color: #ececec; }
+      .text-color-moon-xSmall a:hover {
+        transition: 0.3s;
+        color: #d8d8d8; }
+
+  .text-color-sun-xSmall {
+    color: #e3493f; }
+    .text-color-sun-xSmall a {
+      color: #e3493f; }
+      .text-color-sun-xSmall a:hover {
+        transition: 0.3s;
+        color: #d92b20; }
+
+  /*
+      ==========BG COLORS==========
+  */
+  .bg-white-xSmall {
+    background-color: whitesmoke; }
+
+  .bg-black-xSmall {
+    background-color: #202020; }
+
+  .bg-neptune-xSmall {
+    background-color: #2f4a63; }
+
+  .bg-uranus-xSmall {
+    background-color: #005885; }
+
+  .bg-sea-xSmall {
+    background-color: #009dd9; }
+
+  .bg-earth-xSmall {
+    background-color: #6daa2b; }
+    
+  .bg-jupiter-xSmall {
+    background-color: #ea5c00; }
+
+  .bg-love-xSmall {
+    background-color: #ff1f1f; }
+
+  .bg-mars-xSmall {
+    background-color: #b91d24; }
+
+  .bg-moon-xSmall {
+    background-color: #d8d8d8; }
+
+  .bg-sun-xSmall {
+    background-color: #d92b20; }
+
+  /*
+      ==========BLOCKS==========
+  */
+  .block-white-xSmall {
+    background-color: whitesmoke;
+    color: white; }
+    .block-white-xSmall:hoveR {
+      transition: 0.3s;
+      background-color: white; }
+    .block-white-xSmall a {
+      color: white; }
+      .block-white-xSmall a:hover {
+        transition: 0.3s;
+        color: #b3b3b3; }
+
+  .block-white-xSmall-reverse {
+    background-color: whitesmoke;
+    color: #b3b3b3; }
+    .block-white-xSmall-reverse:hoveR {
+      transition: 0.3s;
+      background-color: white; }
+    .block-white-xSmall-reverse a {
+      color: #b3b3b3; }
+      .block-white-xSmall-reverse a:hover {
+        transition: 0.3s;
+        color: white; }
+
+  .block-black-xSmall {
+    background-color: #202020;
+    color: #777777; }
+    .block-black-xSmall:hoveR {
+      transition: 0.3s;
+      background-color: #343434; }
+    .block-black-xSmall a {
+      color: #777777; }
+      .block-black-xSmall a:hover {
+        transition: 0.3s;
+        color: black; }
+
+  .block-black-xSmall-reverse {
+    background-color: #202020;
+    color: black; }
+    .block-black-xSmall-reverse:hoveR {
+      transition: 0.3s;
+      background-color: #343434; }
+    .block-black-xSmall-reverse a {
+      color: black; }
+      .block-black-xSmall-reverse a:hover {
+        transition: 0.3s;
+        color: #777777; }
+
+  .block-neptune-xSmall {
+    background-color: #2f4a63;
+    color: #7ea1c2; }
+    .block-neptune-xSmall:hoveR {
+      transition: 0.3s;
+      background-color: #3d5e7f; }
+    .block-neptune-xSmall a {
+      color: #7ea1c2; }
+      .block-neptune-xSmall a:hover {
+        transition: 0.3s;
+        color: #050709; }
+
+  .block-neptune-xSmall-reverse {
+    background-color: #2f4a63;
+    color: #050709; }
+    .block-neptune-xSmall-reverse:hoveR {
+      transition: 0.3s;
+      background-color: #3d5e7f; }
+    .block-neptune-xSmall-reverse a {
+      color: #050709; }
+      .block-neptune-xSmall-reverse a:hover {
+        transition: 0.3s;
+        color: #7ea1c2; }
+
+  .block-uranus-xSmall {
+    background-color: #005885;
+    color: #33bbff; }
+    .block-uranus-xSmall:hoveR {
+      transition: 0.3s;
+      background-color: #0074ad; }
+    .block-uranus-xSmall a {
+      color: #33bbff; }
+      .block-uranus-xSmall a:hover {
+        transition: 0.3s;
+        color: black; }
+
+  .block-uranus-xSmall-reverse {
+    background-color: #005885;
+    color: black; }
+    .block-uranus-xSmall-reverse:hoveR {
+      transition: 0.3s;
+      background-color: #0074ad; }
+    .block-uranus-xSmall-reverse a {
+      color: black; }
+      .block-uranus-xSmall-reverse a:hover {
+        transition: 0.3s;
+        color: #33bbff; }
+
+  .block-sea-xSmall {
+    background-color: #009dd9;
+    color: #87deff; }
+    .block-sea-xSmall:hoveR {
+      transition: 0.3s;
+      background-color: #02baff; }
+    .block-sea-xSmall a {
+      color: #87deff; }
+      .block-sea-xSmall a:hover {
+        transition: 0.3s;
+        color: #003d54; }
+
+  .block-sea-xSmall-reverse {
+    background-color: #009dd9;
+    color: #003d54; }
+    .block-sea-xSmall-reverse:hoveR {
+      transition: 0.3s;
+      background-color: #02baff; }
+    .block-sea-xSmall-reverse a {
+      color: #003d54; }
+      .block-sea-xSmall-reverse a:hover {
+        transition: 0.3s;
+        color: #87deff; }
+
+  .block-earth-xSmall {
+    background-color: #6daa2b;
+    color: #c2e69c; }
+    .block-earth-xSmall:hoveR {
+      transition: 0.3s;
+      background-color: #81ca33; }
+    .block-earth-xSmall a {
+      color: #c2e69c; }
+      .block-earth-xSmall a:hover {
+        transition: 0.3s;
+        color: #294010; }
+
+  .block-earth-xSmall-reverse {
+    background-color: #6daa2b;
+    color: #294010; }
+    .block-earth-xSmall-reverse:hoveR {
+      transition: 0.3s;
+      background-color: #81ca33; }
+    .block-earth-xSmall-reverse a {
+      color: #294010; }
+      .block-earth-xSmall-reverse a:hover {
+        transition: 0.3s;
+        color: #c2e69c; }
+
+  .block-jupiter-xSmall {
+    background-color: #ea5c00;
+    color: #ffc198; }
+    .block-jupiter-xSmall:hoveR {
+      transition: 0.3s;
+      background-color: #ff7013; }
+    .block-jupiter-xSmall a {
+      color: #ffc198; }
+      .block-jupiter-xSmall a:hover {
+        transition: 0.3s;
+        color: #652800; }
+
+  .block-jupiter-xSmall-reverse {
+    background-color: #ea5c00;
+    color: #652800; }
+    .block-jupiter-xSmall-reverse:hoveR {
+      transition: 0.3s;
+      background-color: #ff7013; }
+    .block-jupiter-xSmall-reverse a {
+      color: #652800; }
+      .block-jupiter-xSmall-reverse a:hover {
+        transition: 0.3s;
+        color: #ffc198; }
+
+  .block-love-xSmall {
+    background-color: #ff1f1f;
+    color: #ffcccc; }
+    .block-love-xSmall:hoveR {
+      transition: 0.3s;
+      background-color: #ff4747; }
+    .block-love-xSmall a {
+      color: #ffcccc; }
+      .block-love-xSmall a:hover {
+        transition: 0.3s;
+        color: #990000; }
+
+  .block-love-xSmall-reverse {
+    background-color: #ff1f1f;
+    color: #990000; }
+    .block-love-xSmall-reverse:hoveR {
+      transition: 0.3s;
+      background-color: #ff4747; }
+    .block-love-xSmall-reverse a {
+      color: #990000; }
+      .block-love-xSmall-reverse a:hover {
+        transition: 0.3s;
+        color: #ffcccc; }
+
+  .block-mars-xSmall {
+    background-color: #b91d24;
+    color: #ee9699; }
+    .block-mars-xSmall:hoveR {
+      transition: 0.3s;
+      background-color: #dc232b; }
+    .block-mars-xSmall a {
+      color: #ee9699; }
+      .block-mars-xSmall a:hover {
+        transition: 0.3s;
+        color: #470b0e; }
+
+  .block-mars-xSmall-reverse {
+    background-color: #b91d24;
+    color: #470b0e; }
+    .block-mars-xSmall-reverse:hoveR {
+      transition: 0.3s;
+      background-color: #dc232b; }
+    .block-mars-xSmall-reverse a {
+      color: #470b0e; }
+      .block-mars-xSmall-reverse a:hover {
+        transition: 0.3s;
+        color: #ee9699; }
+
+  .block-moon-xSmall {
+    background-color: #d8d8d8;
+    color: white; }
+    .block-moon-xSmall:hoveR {
+      transition: 0.3s;
+      background-color: #ececec; }
+    .block-moon-xSmall a {
+      color: white; }
+      .block-moon-xSmall a:hover {
+        transition: 0.3s;
+        color: #969696; }
+
+  .block-moon-xSmall-reverse {
+    background-color: #d8d8d8;
+    color: #969696; }
+    .block-moon-xSmall-reverse:hoveR {
+      transition: 0.3s;
+      background-color: #ececec; }
+    .block-moon-xSmall-reverse a {
+      color: #969696; }
+      .block-moon-xSmall-reverse a:hover {
+        transition: 0.3s;
+        color: white; }
+
+  .block-sun-xSmall {
+    background-color: #d92b20;
+    color: #f4b6b2; }
+    .block-sun-xSmall:hoveR {
+      transition: 0.3s;
+      background-color: #e3493f; }
+    .block-sun-xSmall a {
+      color: #f4b6b2; }
+      .block-sun-xSmall a:hover {
+        transition: 0.3s;
+        color: #65140f; }
+
+  .block-sun-xSmall-reverse {
+    background-color: #d92b20;
+    color: #65140f; }
+    .block-sun-xSmall-reverse:hoveR {
+      transition: 0.3s;
+      background-color: #e3493f; }
+    .block-sun-xSmall-reverse a {
+      color: #65140f; }
+      .block-sun-xSmall-reverse a:hover {
+        transition: 0.3s;
+        color: #f4b6b2; } }
+body {
+  font-family: "RaleWay", sans-serif;
+  font-size: 16px;
+  color: #2a2a2a;
+  line-height: 1.3;
+  font-weight: 300; }
+  body a {
+    text-decoration: none; }
+  body ul {
+    list-style: none; }
+  body h1 {
+    font-weight: 300; }
+  body h2 {
+    font-weight: 300; }
+  body h3 {
+    font-weight: 300; }
+  body h4 {
+    font-weight: 300; }
+  body h5 {
+    font-weight: 300; }
+  body .fa {
+    cursor: default; }
+  body button {
+    border: 0;
+    padding: 10.66667px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 4px;
+    line-height: 2; }
+
+/*# sourceMappingURL=Moon.css.map */
